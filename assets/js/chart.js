@@ -293,8 +293,8 @@ import("./assets/js/lib/chartjs/chart.js").then((e) => {
 		},
 	});
 
-	let switchThemeLoanSimple = function(theme) {
-		chartLoanSimple.data.datasets[0].backgroundColor = colors[theme].sky;
+	switchTheme = function(theme) {
+		chartLoanSimple.data.datasets[0].backgroundColor = [colors[theme].yellow, colors[theme].purple];
 		chartLoanSimple.options.scales.y.grid.color = colors[theme].gridColor;
 		chartLoanSimple.options.scales.x.grid.color = colors[theme].gridColor;
 		chartLoanSimple.options.scales.y.ticks.color = colors[theme].gridColor;
@@ -304,7 +304,7 @@ import("./assets/js/lib/chartjs/chart.js").then((e) => {
 		chartLoanSimple.update()
 	}
 
-	switchTheme = [switchThemeDonut, switchThemeLoanSimple]
+	// switchTheme = [switchThemeLoanSimple]
 
 	window.changeChartData = function(values, labels) {
 		// donutBig.data.datasets[0].data = values

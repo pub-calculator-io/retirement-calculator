@@ -1,6 +1,6 @@
 === Retirement Calculator by Calculator.iO ===
 Contributors: calculatorio
-Tags: 
+Tags: retirement calculator, retirement savings planning, retirement withdrawal estimates, savings longevity, retirement decision factors, retirement savings rules (10%, 80%, 4%), inflation impact on retirement, retirement fund sources, income replacement in retirement, retirement investment returns
 Requires at least: 5.0
 Tested up to: 6.4.0
 Stable tag: 1.0.0
