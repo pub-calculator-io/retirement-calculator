@@ -1,4 +1,4 @@
-# Retirement Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Retirement Calculator Widget for WordPress
 
 Retirement savings calculator that uses the formula FV = PV (1 + R)^n to help users plan for retirement and calculate retirement income.
 
