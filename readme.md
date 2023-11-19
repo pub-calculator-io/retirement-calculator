@@ -7,7 +7,7 @@ Retirement savings calculator that uses the formula FV = PV (1 + R)^n to help us
 
 ## Installation
 
-1. [Download](https://github.com/pub-calculator-io/age-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
+1. [Download](https://github.com/pub-calculator-io/retirement-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
 2. Upload the /retirement-calculator-master/ folder to the /wp-content/plugins/ directory.
 3. Activate the [Retirement Calculator](https://www.calculator.io/retirement-calculator/ "Retirement Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
