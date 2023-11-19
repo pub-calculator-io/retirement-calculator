@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Retirement Calculator by www.calculator.io
+Plugin Name: CI Retirement calculator
 Plugin URI: https://www.calculator.io/retirement-calculator/
 Description: Retirement savings calculator that uses the formula FV = PV (1 + R)^n to help users plan for retirement and calculate retirement income.
 Version: 1.0.0
