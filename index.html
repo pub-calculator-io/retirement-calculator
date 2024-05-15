@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-    <meta name="description" content="Retirement savings calculator that uses the formula FV &#x3D; PV (1 + R)^n to help users plan for retirement and calculate retirement income.">
+    <meta name="description" content="Retirement savings calculator that uses the formula FV &#x3D; PV (1 + R)ⁿ to help users plan for retirement and calculate retirement income.">
     <link rel="preload" href="./assets/fonts/inter-v12-latin-regular.woff2" as="font" crossorigin type="font/woff2">
     <link rel="preload" href="./assets/fonts/inter-v12-latin-500.woff2" as="font" crossorigin type="font/woff2">
     <link rel="preload" href="./assets/fonts/inter-v12-latin-600.woff2" as="font" crossorigin type="font/woff2">
@@ -28,7 +28,7 @@
             <div class="calculator-setting" id="calculator_form">
                 <div class="calculator-content col">
                 	<div class="input-wrapper row">
-                		<label class="input col ">
+                		<label class="input col apr-calculator,401k-calculator,retirement-calculator,annuity-calculator">
                 			
                 			<div class="dropdown-wrapper">
                 				<div class="input-field row " tabindex="0">
@@ -51,7 +51,7 @@
                 		</label>	</div>
                 
                 	<div class="input-wrapper row tab tab--active" data-tab="0">
-                		<label class="input col   ">
+                		<label class="input col apr-calculator,401k-calculator,retirement-calculator,annuity-calculator  ">
                 			<p class="input__title">Current Age</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="current_age" value="35"  />
@@ -59,7 +59,7 @@
                 			</div>
                 		
                 		
-                		</label>		<label class="input col   ">
+                		</label>		<label class="input col apr-calculator,401k-calculator,retirement-calculator,annuity-calculator  ">
                 			<p class="input__title">Planned Retirement</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="planned_retirement" value="65"  />
@@ -69,7 +69,7 @@
                 		
                 		</label>	</div>
                 	<div class="input-wrapper row tab tab--active" data-tab="0">
-                		<label class="input col   ">
+                		<label class="input col apr-calculator,401k-calculator,retirement-calculator,annuity-calculator  ">
                 			<p class="input__title">Life Expectancy</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="life_expectancy" value="85"  />
@@ -79,7 +79,7 @@
                 		
                 		</label>	</div>
                 	<div class="input-wrapper row tab tab--active" data-tab="0">
-                		<label class="input col   ">
+                		<label class="input col apr-calculator,401k-calculator,retirement-calculator,annuity-calculator  ">
                 			<p class="input__title">Expected Social Security Income</p>
                 			<div class="input-field row">
                 					<span class="input-field__hint">$</span>
@@ -90,7 +90,7 @@
                 		
                 		</label>	</div>
                 	<div class="input-wrapper row tab tab--active" data-tab="0">
-                		<label class="input col   ">
+                		<label class="input col apr-calculator,401k-calculator,retirement-calculator,annuity-calculator  ">
                 			<p class="input__title">Other Income After Retirement</p>
                 			<div class="input-field row">
                 					<span class="input-field__hint">$</span>
@@ -101,7 +101,7 @@
                 		
                 		</label>	</div>
                 	<div class="input-wrapper row tab tab--active" data-tab="0">
-                		<label class="input col   ">
+                		<label class="input col apr-calculator,401k-calculator,retirement-calculator,annuity-calculator  ">
                 			<p class="input__title">Average Investment Return</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="average_investment_return" value="6"  />
@@ -111,7 +111,7 @@
                 		
                 		</label>	</div>
                 	<div class="input-wrapper row tab tab--active" data-tab="0">
-                		<label class="input col   ">
+                		<label class="input col apr-calculator,401k-calculator,retirement-calculator,annuity-calculator  ">
                 			<p class="input__title">Inflation Rate (Annual)</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="inflation_rate" value="3"  />
@@ -121,7 +121,7 @@
                 		
                 		</label>	</div>
                 	<div class="input-wrapper row tab tab--active" data-tab="0">
-                		<label class="input col   ">
+                		<label class="input col apr-calculator,401k-calculator,retirement-calculator,annuity-calculator  ">
                 			<p class="input__title">Your Current Income</p>
                 			<div class="input-field row">
                 					<span class="input-field__hint">$</span>
@@ -132,7 +132,7 @@
                 		
                 		</label>	</div>
                 	<div class="input-wrapper row tab tab--active" data-tab="0">
-                		<label class="input col   ">
+                		<label class="input col apr-calculator,401k-calculator,retirement-calculator,annuity-calculator  ">
                 			<p class="input__title">Income Needed After Retirement</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="income_needed_after_retirement" value="70"  />
@@ -142,7 +142,7 @@
                 		
                 		</label>	</div>
                 	<div class="input-wrapper row tab tab--active" data-tab="0">
-                		<label class="input col   ">
+                		<label class="input col apr-calculator,401k-calculator,retirement-calculator,annuity-calculator  ">
                 			<p class="input__title">Your current retirement savings</p>
                 			<div class="input-field row">
                 					<span class="input-field__hint">$</span>
@@ -152,7 +152,7 @@
                 		
                 		</label>	</div>
                 	<div class="input-wrapper row tab tab--active" data-tab="0">
-                		<label class="input col   ">
+                		<label class="input col apr-calculator,401k-calculator,retirement-calculator,annuity-calculator  ">
                 			<p class="input__title">Future retirement savings</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="future_retirement_savings" value="10"  />
@@ -163,7 +163,7 @@
                 		</label>	</div>
                 
                 	<div class="input-wrapper row tab" data-tab="1">
-                		<label class="input col   ">
+                		<label class="input col apr-calculator,401k-calculator,retirement-calculator,annuity-calculator  ">
                 			<p class="input__title">Current Age</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="current_age_2" value="35"  />
@@ -171,7 +171,7 @@
                 			</div>
                 		
                 		
-                		</label>		<label class="input col   ">
+                		</label>		<label class="input col apr-calculator,401k-calculator,retirement-calculator,annuity-calculator  ">
                 			<p class="input__title">Planned Retirement</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="planned_retirement_2" value="65"  />
@@ -181,7 +181,7 @@
                 		
                 		</label>	</div>
                 	<div class="input-wrapper row tab" data-tab="1">
-                		<label class="input col   ">
+                		<label class="input col apr-calculator,401k-calculator,retirement-calculator,annuity-calculator  ">
                 			<p class="input__title">Amount Needed at the Retirement Age</p>
                 			<div class="input-field row">
                 					<span class="input-field__hint">$</span>
@@ -191,7 +191,7 @@
                 		
                 		</label>	</div>
                 	<div class="input-wrapper row tab" data-tab="1">
-                		<label class="input col   ">
+                		<label class="input col apr-calculator,401k-calculator,retirement-calculator,annuity-calculator  ">
                 			<p class="input__title">Your Retirement Savings Now</p>
                 			<div class="input-field row">
                 					<span class="input-field__hint">$</span>
@@ -201,7 +201,7 @@
                 		
                 		</label>	</div>
                 	<div class="input-wrapper row tab" data-tab="1">
-                		<label class="input col   ">
+                		<label class="input col apr-calculator,401k-calculator,retirement-calculator,annuity-calculator  ">
                 			<p class="input__title">Average Investment Return</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="average_Investment_return_2" value="6"  />
@@ -212,7 +212,7 @@
                 		</label>	</div>
                 
                 	<div class="input-wrapper row tab" data-tab="2">
-                		<label class="input col   ">
+                		<label class="input col apr-calculator,401k-calculator,retirement-calculator,annuity-calculator  ">
                 			<p class="input__title">Current Age</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="current_age_3" value="35"  />
@@ -220,7 +220,7 @@
                 			</div>
                 		
                 		
-                		</label>		<label class="input col   ">
+                		</label>		<label class="input col apr-calculator,401k-calculator,retirement-calculator,annuity-calculator  ">
                 			<p class="input__title">Planned Retirement</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="planned_retirement_3" value="65"  />
@@ -230,7 +230,7 @@
                 		
                 		</label>	</div>
                 	<div class="input-wrapper row tab" data-tab="2">
-                		<label class="input col   ">
+                		<label class="input col apr-calculator,401k-calculator,retirement-calculator,annuity-calculator  ">
                 			<p class="input__title">Life Expectancy</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="life_expectancy_2" value="85"  />
@@ -240,7 +240,7 @@
                 		
                 		</label>	</div>
                 	<div class="input-wrapper row tab" data-tab="2">
-                		<label class="input col   ">
+                		<label class="input col apr-calculator,401k-calculator,retirement-calculator,annuity-calculator  ">
                 			<p class="input__title">Your Retirement Savings Now</p>
                 			<div class="input-field row">
                 					<span class="input-field__hint">$</span>
@@ -250,7 +250,7 @@
                 		
                 		</label>	</div>
                 	<div class="input-wrapper row tab" data-tab="2">
-                		<label class="input col   ">
+                		<label class="input col apr-calculator,401k-calculator,retirement-calculator,annuity-calculator  ">
                 			<p class="input__title">Annual Contribution</p>
                 			<div class="input-field row">
                 					<span class="input-field__hint">$</span>
@@ -260,7 +260,7 @@
                 		
                 		</label>	</div>
                 	<div class="input-wrapper row tab" data-tab="2">
-                		<label class="input col   ">
+                		<label class="input col apr-calculator,401k-calculator,retirement-calculator,annuity-calculator  ">
                 			<p class="input__title">Monthly Contribution</p>
                 			<div class="input-field row">
                 					<span class="input-field__hint">$</span>
@@ -270,7 +270,7 @@
                 		
                 		</label>	</div>
                 	<div class="input-wrapper row tab" data-tab="2">
-                		<label class="input col   ">
+                		<label class="input col apr-calculator,401k-calculator,retirement-calculator,annuity-calculator  ">
                 			<p class="input__title">Average Investment Return</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="average_Investment_return_3" value="6"  />
@@ -280,7 +280,7 @@
                 		
                 		</label>	</div>
                 	<div class="input-wrapper row tab" data-tab="2">
-                		<label class="input col   ">
+                		<label class="input col apr-calculator,401k-calculator,retirement-calculator,annuity-calculator  ">
                 			<p class="input__title">Inflation Rate (Annual)</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="inflation_rate_2" value="3"  />
@@ -291,7 +291,7 @@
                 		</label>	</div>
                 
                 	<div class="input-wrapper row tab" data-tab="3">
-                		<label class="input col   ">
+                		<label class="input col apr-calculator,401k-calculator,retirement-calculator,annuity-calculator  ">
                 			<p class="input__title">The Amount You Have</p>
                 			<div class="input-field row">
                 					<span class="input-field__hint">$</span>
@@ -301,7 +301,7 @@
                 		
                 		</label>	</div>
                 	<div class="input-wrapper row tab" data-tab="3">
-                		<label class="input col   ">
+                		<label class="input col apr-calculator,401k-calculator,retirement-calculator,annuity-calculator  ">
                 			<p class="input__title">You Plan to Withdraw</p>
                 			<div class="input-field row">
                 					<span class="input-field__hint">$</span>
@@ -312,7 +312,7 @@
                 		
                 		</label>	</div>
                 	<div class="input-wrapper row tab" data-tab="3">
-                		<label class="input col   ">
+                		<label class="input col apr-calculator,401k-calculator,retirement-calculator,annuity-calculator  ">
                 			<p class="input__title">Average Investment Return</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="average_Investment_return_4" value="6"  />
@@ -328,23 +328,29 @@
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
-                	<script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script"></script>
+                	<script type="text/javascript" src="./assets/js/lib/chartjs/chart.min.js" id="chartjs_lib" defer></script>
+                	<script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script" defer></script>
                 
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
                 <div class="calculator-content calculator-content--gray calculator-content--footer calculator-content--small row tab " data-tab="1">
                 
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate2(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate2(this); animateElements();" data-action="calculate2" id="action-button">Calculate</button>
                 </div>
                 
-                	<script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script"></script>
+                	<script type="text/javascript" src="./assets/js/lib/chartjs/chart.min.js" id="chartjs_lib" defer></script>
+                	<script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script" defer></script>
+                
+                
                 
                 
                 
@@ -353,10 +359,13 @@
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate3(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate3(this); animateElements();" data-action="calculate3" id="action-button">Calculate</button>
                 </div>
                 
-                	<script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script"></script>
+                	<script type="text/javascript" src="./assets/js/lib/chartjs/chart.min.js" id="chartjs_lib" defer></script>
+                	<script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script" defer></script>
+                
+                
                 
                 
                 
@@ -365,10 +374,13 @@
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate4(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate4(this); animateElements();" data-action="calculate4" id="action-button">Calculate</button>
                 </div>
                 
-                	<script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script"></script>
+                	<script type="text/javascript" src="./assets/js/lib/chartjs/chart.min.js" id="chartjs_lib" defer></script>
+                	<script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script" defer></script>
+                
+                
                 
                 
                 
@@ -386,12 +398,11 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col tab tab--active" data-tab="0">
 	<p class="table-cell table-cell--table-dark table-cell--only-title">Result</p>
 	<div class="table-cell table-cell--age table-cell--only row">
-		<div class="col chart__text">
+		<div class="col chart__text animate">
 			<p class="result-text" id="total-saving">$553,407 at Age 65</p>
 			<p class="result-text result-text--small-loan" id="needed-total">Savings Needed at 65: $1,516,653</p>
 			<p class="result-text result-text--small-loan" id="total-without-inflation">Equivalent Purchase Power Now: $624,841</p>
@@ -415,7 +426,7 @@
 		<table class="result-table">
 			<thead class="dark">
 			<tr>
-				<th class="dark indigo" colspan="3" id="monthly-income-savings">MONTHLY INCOME AFTER RETIREMENT (IF SAVED $553,407):
+				<th class="dark indigo animate" colspan="3" id="monthly-income-savings">MONTHLY INCOME AFTER RETIREMENT (IF SAVED $553,407):
 				</th>
 			</tr>
 			</thead>
@@ -427,30 +438,30 @@
 			</tr>
 			<tr>
 				<th>Total</th>
-				<td id="total-monthly">$4,600</td>
-				<td id="total-monthly-2">$1,895</td>
+				<td id="total-monthly" class="animate">$4,600</td>
+				<td id="total-monthly-2" class="animate">$1,895</td>
 			</tr>
 			<tr>
 				<th>From Savings</th>
-				<td id="monthly-from-saving">$3,100</td>
-				<td id="monthly-from-saving-2">$1,277</td>
+				<td id="monthly-from-saving" class="animate">$3,100</td>
+				<td id="monthly-from-saving-2" class="animate">$1,277</td>
 			</tr>
 			<tr>
 				<th>From Social Security</th>
-				<td id="monthly-from-social">$1,200</td>
-				<td id="monthly-from-social-2">$494</td>
+				<td id="monthly-from-social" class="animate">$1,200</td>
+				<td id="monthly-from-social-2" class="animate">$494</td>
 			</tr>
 			<tr>
 				<th>From Other Income</th>
-				<td id="monthly-from-other">$300</td>
-				<td id="monthly-from-other-2">$124</td>
+				<td id="monthly-from-other" class="animate">$300</td>
+				<td id="monthly-from-other-2" class="animate">$124</td>
 			</tr>
 			</tbody>
 		</table>
 		<table class="result-table">
 			<thead class="dark">
 			<tr>
-				<th class="dark indigo" colspan="3" id="monthly-income-needed">MONTHLY INCOME AFTER RETIREMENT (IF SAVED $1,516,653):
+				<th class="dark indigo animate" colspan="3" id="monthly-income-needed">MONTHLY INCOME AFTER RETIREMENT (IF SAVED $1,516,653):
 				</th>
 			</tr>
 			</thead>
@@ -462,23 +473,23 @@
 			</tr>
 			<tr>
 				<th>Total</th>
-				<td id="total-monthly-needed">$9,911</td>
-				<td id="total-monthly-needed-2">$4,083</td>
+				<td id="total-monthly-needed" class="animate">$9,911</td>
+				<td id="total-monthly-needed-2" class="animate">$4,083</td>
 			</tr>
 			<tr>
 				<th>From Savings</th>
-				<td id="monthly-from-saving-needed">$8,411</td>
-				<td id="monthly-from-saving-needed-2">$3,465</td>
+				<td id="monthly-from-saving-needed" class="animate">$8,411</td>
+				<td id="monthly-from-saving-needed-2" class="animate">$3,465</td>
 			</tr>
 			<tr>
 				<th>From Social Security</th>
-				<td id="monthly-from-social-needed">$1,200</td>
-				<td id="monthly-from-social-needed-2">$494</td>
+				<td id="monthly-from-social-needed" class="animate">$1,200</td>
+				<td id="monthly-from-social-needed-2" class="animate">$494</td>
 			</tr>
 			<tr>
 				<th>From Other Income</th>
-				<td id="monthly-from-other-needed">$300</td>
-				<td id="monthly-from-other-needed-2">$124</td>
+				<td id="monthly-from-other-needed" class="animate">$300</td>
+				<td id="monthly-from-other-needed-2" class="animate">$124</td>
 			</tr>
 			</tbody>
 		</table>
@@ -496,45 +507,45 @@
 			<tbody>
 			<tr>
 				<th>Amount to Save Every Month</th>
-				<td id="save-every-month">$644.11</td>
+				<td id="save-every-month" class="animate">$644.11</td>
 			</tr>
 			<tr>
 				<th>Total Principal</th>
-				<td id="save-every-month-principal">$261,880.23</td>
+				<td id="save-every-month-principal" class="animate">$261,880.23</td>
 			</tr>
 			<tr>
 				<th>Total Interest</th>
-				<td id="save-every-month-interest">$538,119.77</td>
+				<td id="save-every-month-interest" class="animate">$538,119.77</td>
 			</tr>
 			<tr>
 				<th class="dark indigo" colspan="2" id="yearly-payment-2">IF YOU SAVE EVERY YEAR UNTIL 65</th>
 			</tr>
 			<tr>
 				<th>Amount to Save Every Year</th>
-				<td id="save-every-year">$7,939.66</td>
+				<td id="save-every-year" class="animate">$7,939.66</td>
 			</tr>
 			<tr>
 				<th>Total Principal</th>
-				<td id="save-every-year-principal">$268,189.86</td>
+				<td id="save-every-year-principal" class="animate">$268,189.86</td>
 			</tr>
 			<tr>
 				<th>Total Interest</th>
-				<td id="save-every-year-interest">$531,810.14</td>
+				<td id="save-every-year-interest" class="animate">$531,810.14</td>
 			</tr>
 			<tr>
 				<th class="dark indigo" colspan="2">IF YOU HAVE IT NOW</th>
 			</tr>
 			<tr>
 				<th>Additional Amount Needed</th>
-				<td id="you-have">$109,288.10</td>
+				<td id="you-have" class="animate">$109,288.10</td>
 			</tr>
 			<tr>
 				<th>Total Principal</th>
-				<td id="you-have-principal">$139,288.10</td>
+				<td id="you-have-principal" class="animate">$139,288.10</td>
 			</tr>
 			<tr>
 				<th>Total Interest</th>
-				<td id="you-have-interest">$660,711.90</td>
+				<td id="you-have-interest" class="animate">$660,711.90</td>
 			</tr>
 			</tbody>
 		</table>
@@ -552,32 +563,32 @@
 			<tbody>
 			<tr>
 				<th id="balance-retirement-title">Balance at the retirement age of 65</th>
-				<td id="balance-retirement">$646,653.85</td>
+				<td id="balance-retirement" class="animate">$646,653.85</td>
 			</tr>
 			<tr>
 				<th>Equivalent to current purchase power of</th>
-				<td id="today-balance-retirement">$266,412.83</td>
+				<td id="today-balance-retirement" class="animate">$266,412.83</td>
 			</tr>
 			<tr>
 				<th id="withdraw-monthly-title">The amount you can withdraw monthly at 65 and increase 3% annually
 				</th>
-				<td id="withdraw-monthly">$3,573.24</td>
+				<td id="withdraw-monthly" class="animate">$3,573.24</td>
 			</tr>
 			<tr>
 				<th>Equivalent to current purchase power of</th>
-				<td id="today-withdraw-monthly">$1,472.13</td>
+				<td id="today-withdraw-monthly" class="animate">$1,472.13</td>
 			</tr>
 			<tr>
 				<th id="withdraw-monthly-title-65-85">The amount you can withdraw monthly from 65 to 85</th>
-				<td id="withdraw-monthly-65-85">$4,573.73</td>
+				<td id="withdraw-monthly-65-85" class="animate">$4,573.73</td>
 			</tr>
 			<tr>
 				<th id="withdraw-monthly-title-65">At age 65, equivalent to current purchase power of</th>
-				<td id="withdraw-monthly-65">$1,884.32</td>
+				<td id="withdraw-monthly-65" class="animate">$1,884.32</td>
 			</tr>
 			<tr>
 				<th id="withdraw-monthly-title-85">At age 85, equivalent to current purchase power of</th>
-				<td id="withdraw-monthly-85">$1,043.30</td>
+				<td id="withdraw-monthly-85" class="animate">$1,043.30</td>
 			</tr>
 			</tbody>
 		</table>
@@ -589,7 +600,7 @@
 		<div class="result" id="result-4-wrap">
 			<p class="table-cell table-cell--table-dark table-cell--only-title">Result</p>
 			<div class="table-cell table-cell--age table-cell--only row">
-				<div class="col result-text" id="result-4">If withdraw $5,000 per month, $600,000 can last 15 years and 0.7 months.
+				<div class="col result-text animate" id="result-4">If withdraw $5,000 per month, $600,000 can last 15 years and 0.7 months.
 				</div>
 			</div>
 		</div>
@@ -600,7 +611,7 @@
 				<th class="dark indigo">WITHDRAW AMOUNT</th>
 			</tr>
 			</thead>
-			<tbody id="withdraw-table">
+			<tbody id="withdraw-table" class="animate">
 			<tr>
 				<th>5 years</th>
 				<td>$11,555.39/month</td>

@@ -7,7 +7,7 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Retirement savings calculator that uses the formula FV = PV (1 + R)^n to help users plan for retirement and calculate retirement income.
+Retirement savings calculator that uses the formula FV = PV (1 + R)ⁿ to help users plan for retirement and calculate retirement income.
 
 [https://www.calculator.io/retirement-calculator/](https://www.calculator.io/retirement-calculator/)
 
@@ -24,7 +24,6 @@ Add the following code to your template where you would like the Retirement Calc
 == Screenshots ==
 
 1. The Retirement Calculator Input Form.
-2. The Retirement Calculator Calculation Results.
 
 == Installation ==
 

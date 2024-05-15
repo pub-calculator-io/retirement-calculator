@@ -11,7 +11,7 @@ function calculate(){
 	const incomeSavings = +input.get('current_income_savings').val();
 	const futureSavings = +input.get('future_retirement_savings').val();
 	if(!incomeSavings && !futureSavings){
-		input.error('current_income_savings', 'Please enter your current retirement savings or future retirement savings');
+		input.error('current_income_savings', 'Enter your current retirement savings or future retirement savings');
 	}
 	if(!input.valid()) return;
 

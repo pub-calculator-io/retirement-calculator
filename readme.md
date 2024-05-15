@@ -1,9 +1,8 @@
 # Retirement Calculator Widget for WordPress
 
-Retirement savings calculator that uses the formula FV = PV (1 + R)^n to help users plan for retirement and calculate retirement income.
+Retirement savings calculator that uses the formula FV = PV (1 + R)ⁿ to help users plan for retirement and calculate retirement income.
 
 ![Retirement Calculator Input Form](/assets/images/screenshot-1.png "Retirement Calculator Input Form")
-![Retirement Calculator Calculation Results](/assets/images/screenshot-2.png "Retirement Calculator Calculation Results")
 
 ## Installation
 
